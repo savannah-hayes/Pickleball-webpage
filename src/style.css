@@ -1,0 +1,164 @@
+h2,
+a,
+.footer {
+  text-align: center;
+}
+
+.heading,
+iframe,
+.learn-more,
+.play,
+.game-play,
+.the-game {
+  display: block;
+}
+
+.heading,
+iframe,
+.game-play,
+.container {
+  margin: 0 auto;
+}
+
+p,
+ul,
+h2,
+h3,
+.footer {
+  font-family: sans-serif;
+}
+
+.game-play,
+iframe,
+.rules,
+.court {
+  border-radius: 30px;
+}
+
+.the-game,
+.first-paragraph {
+  line-height: 1.4;
+  text-align: justify;
+}
+
+.heading {
+  max-width: 80%;
+}
+
+.game-play {
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 20px;
+  padding: 10px;
+}
+
+iframe {
+  max-width: 90%;
+}
+
+.container {
+  max-width: 900px;
+  padding: 30px;
+}
+
+.play {
+  margin: 25px auto;
+  background: black;
+  color: white;
+  border: none;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+  padding: 16px 15px;
+  transition: all 200ms ease-in-out;
+  border-radius: 20px;
+}
+
+.play:hover {
+  background-color: #658479;
+  color: white;
+  cursor: pointer;
+}
+
+.sections {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.balls,
+.paddles,
+.court,
+.rules {
+  width: 400px;
+  height: 400px;
+  border: none;
+  min-width: 300px;
+}
+
+.the-game {
+  flex: 50%;
+  box-sizing: border-box;
+  padding: 10px 0px;
+}
+
+hr {
+  color: black;
+  margin: 40px 0 40px;
+}
+
+.learn-more {
+  color: #c29f7a;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 15px;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  opacity: 0.4;
+  font-size: 13px;
+}
+
+.topnav {
+  background: black;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  line-height: 0;
+}
+
+.topnav a,
+.topnav a.sub {
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a.active,
+.topnav a.sub,
+.topnav a.sub:hover,
+.topnav a.active:hover {
+  background-color: #658479;
+  color: black;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+}
+
+.topnav a.sub {
+  float: right;
+}
+
+.topnav a:hover {
+  background-color: grey;
+  color: white;
+}
