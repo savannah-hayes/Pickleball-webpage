@@ -1,13 +1,44 @@
-.rules-image,
+h1,
+h3,
+h6,
+.facts,
+.video,
+.footer {
+  text-align: center;
+}
+
+p,
+h4 {
+  text-align: left;
+}
+
 .court,
 .paddles,
 .balls {
-  width: 340px;
-  height: 300px;
+  width: 70%;
+}
+
+iframe,
+.title-image,
+.game-play,
+.court,
+.paddles,
+.balls {
+  display: block;
+  margin: 0 auto;
+}
+
+iframe,
+.game-play {
+  width: 90%;
+}
+
+iframe {
+  height: 350px;
 }
 
 body {
-  background: linear-gradient(#d2b48c, #658479, #d2b48c);
+  background-color: grey;
 }
 
 hr {
@@ -16,46 +47,36 @@ hr {
 }
 
 .title-image {
-  width: 450px;
-  height: 150px;
-  display: block;
-  margin: 0 auto;
-}
-
-h1,
-h3,
-h4,
-p {
-  text-align: center;
-}
-
-.rules h3 {
-  text-align: left;
+  width: 50%;
 }
 
 .game-play {
-  width: 750px;
-  display: block;
-  margin: 0 auto;
-  border-radius: 10px;
+  margin-top: 15px;
   margin-bottom: 20px;
-}
-
-.court {
-  border-radius: 10px;
 }
 
 .facts ul {
   list-style: none;
 }
 
-.facts {
-  text-align: center;
+.balls,
+.paddles,
+.court {
+  margin-bottom: 20px;
 }
 
-iframe {
-  display: block;
-  margin: 0 auto;
+.court {
+  height: 245px;
+  margin-top: 12px;
+}
+
+.rules {
+  margin-bottom: 5px;
+}
+
+.the-paddles,
+.the-pickleballs {
+  padding-top: 50px;
 }
 
 .learn-more {
@@ -82,14 +103,15 @@ iframe {
 }
 
 .subscribe:hover {
-  background-color: rgb(12, 12, 12);
+  background-color: rgb(30, 30, 30);
   color: white;
 }
 
 .footer {
-  opacity: 0.4;
+  opacity: 0.7;
   font-size: 13px;
-  color: black;
+  color: white;
+  margin-top: 5px;
 }
 
 .container {
