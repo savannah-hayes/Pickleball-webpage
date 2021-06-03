@@ -55,7 +55,7 @@ hr {
 
 .game-play {
   width: 100%;
-  margin: 10px 0px 20px 0px;
+  margin: 20px 0px;
 }
 
 .facts ul {
@@ -129,7 +129,7 @@ hr {
 .container {
   max-width: 1200px;
   border: transparent;
-  margin-top: 30px;
+  margin-top: 25px;
   border-radius: 10px;
   background-color: white;
 }
