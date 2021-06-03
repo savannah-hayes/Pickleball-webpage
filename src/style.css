@@ -1,29 +1,30 @@
 h1,
-h3,
 h6,
-.facts,
 .video,
 .footer {
   text-align: center;
 }
 
 p,
-h4 {
+h3,
+h4,
+.facts {
   text-align: left;
 }
 
 .court,
 .paddles,
-.balls {
+.balls,
+.rules-image {
   width: 70%;
 }
 
 iframe,
-.title-image,
 .game-play,
 .court,
 .paddles,
-.balls {
+.balls,
+.rules-image {
   display: block;
   margin: 0 auto;
 }
@@ -33,12 +34,18 @@ iframe,
   width: 90%;
 }
 
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
 iframe {
   height: 350px;
 }
 
 body {
   background-color: grey;
+  font-size: 17px;
 }
 
 hr {
@@ -46,13 +53,9 @@ hr {
   margin: 40px 0 20px;
 }
 
-.title-image {
-  width: 50%;
-}
-
 .game-play {
-  margin-top: 15px;
-  margin-bottom: 20px;
+  width: 100%;
+  margin: 10px 0px 20px 0px;
 }
 
 .facts ul {
@@ -61,13 +64,18 @@ hr {
 
 .balls,
 .paddles,
-.court {
+.court,
+.rules-image {
   margin-bottom: 20px;
 }
 
 .court {
   height: 245px;
   margin-top: 12px;
+}
+
+.rules-image {
+  height: 260px;
 }
 
 .rules {
@@ -77,6 +85,10 @@ hr {
 .the-paddles,
 .the-pickleballs {
   padding-top: 50px;
+}
+
+.section {
+  margin-bottom: 40px;
 }
 
 .learn-more {
@@ -115,10 +127,9 @@ hr {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1200px;
   border: transparent;
   margin-top: 30px;
   border-radius: 10px;
-  opacity: 0.7;
   background-color: white;
 }
